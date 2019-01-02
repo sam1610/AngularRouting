@@ -3,13 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DashComponent } from './dash/dash.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    DashComponent
-  ],
+    AppComponent  ],
   imports: [
     BrowserModule,
     AppRoutingModule
